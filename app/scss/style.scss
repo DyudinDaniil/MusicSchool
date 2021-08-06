@@ -1,0 +1,131 @@
+@import 'normilize';
+
+.df {
+    display: flex;
+}
+.dg {
+    display: grid;
+}
+.up {
+    text-transform: uppercase;
+}
+.link {
+    padding: 12px 20px;
+    border: 3px solid #0b77dc;
+    border-radius: 30px;
+    transition: all .5s;
+
+    &:hover {
+        background-color: #0b77dc;
+    }
+}
+
+* {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+body {
+    background-color: #0b77dc;
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+// header
+.header {
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: #0b77dc;
+}
+.header-box {
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+.nav__item:not(:last-child) {
+    padding-right: 40px;
+}
+.soc {
+    text-align: center;
+}
+.soc__item:not(:first-child):not(:last-child) {
+    padding-bottom: 5px;
+}
+
+// main
+.main {
+    height: 100vh;
+}
+.main-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.main-bg-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.main-bg__block {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    &:nth-child(1) {
+        background-image: url(../images/mainBG3.jpg);
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    &:nth-child(2) {
+        background-image: url(../images/mainBG4.jpg);
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    &:nth-child(3) {
+        background-image: url(../images/mainBG2.jpg);
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    &:nth-child(4) {
+        background-image: url(../images/mainBG1.jpg);
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4
+    }
+}
+.main-box {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 35vh;
+    text-align: center;
+}
+.main__title {
+    font-size: 42px;
+    padding-bottom: 80px;
+}
+.main__text {
+    font-size: 22px;
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+
+// about
+.about {
+    height: 100vh;
+    background: #000;
+}
