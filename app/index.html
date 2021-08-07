@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Music School</title>
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 </head>
 <body>
     <header class="header">
@@ -66,34 +68,254 @@
                     ATL, Нейромонах Феофан, SHOKRAN, Гарри Топор и Тони Раут, ДМЦ, Гречка и других
                 </p>
                 
-                <a href="#" class="main__link link up">Записаться на бесплатный урок</a>
+                <a href="#" class="main__link link up">
+                    Записаться на бесплатный урок
+                </a>
             </div>
         </div>
     </section>
 
     <section class="about">
         <div class="wrap">
-            
+            <h3 class="about__title up hover-left">
+                <span class="big">Кратко</span>
+                <span class="small">обо мне:</span>
+            </h3>
+
+            <div class="about-box df">
+                <div class="about__img">
+                    <div class="about__img-child"></div>
+                </div>
+
+                <div class="about__text">
+                    <p class="about__p">
+                        Меня зовут Виктор Самойлов и я занимаюсь ударными инструментами с 2007 года, а преподаю более 6 лет!
+                        В данный момент я являюсь барабанщиком групп 7000$ // Семь штук баксов, барабанного шоу BW Drum Show.
+                        Также являюсь сессионным музыкантом. Сотрудничаю с такими проектами,  как RAM (Dirty Ramirezzz), Greenwich 
+                        Являюсь лицом компании KK Percussion.
+                    </p>
+
+                    <a href="#" class="about__link link up">
+                        Записаться на бесплатный урок
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="lessons">
         <div class="wrap">
-            
+            <h3 class="lessons__title up hover-right">
+                <span class="big">Что вас ждет</span>
+                <span class="small">на моих уроках:</span>
+            </h3>
+
+            <div class="lessons-box df">
+                <ul class="lessons__list">
+                    <li class="lessons__item">
+                        <div class="lessons__num">
+                            1.
+                        </div>
+
+                        <p class="lessons__p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Iusto aperiam ipsam, necessitatibus nisi, earum commodi iure, 
+                            voluptatibus ut dignissimos reprehenderit autem eos magni perferendis quo maxime 
+                            aspernatur dolores? Totam, consequatur?
+                        </p>
+                    </li>
+
+                    <li class="lessons__item">
+                        <div class="lessons__num">
+                            2.
+                        </div>
+
+                        <p class="lessons__p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Iusto aperiam ipsam, necessitatibus nisi, earum commodi iure, 
+                            voluptatibus ut dignissimos reprehenderit autem eos magni perferendis quo maxime 
+                            aspernatur dolores? Totam, consequatur?
+                        </p>
+                    </li>
+
+                    <li class="lessons__item">
+                        <div class="lessons__num">
+                            3.
+                        </div>
+
+                        <p class="lessons__p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Iusto aperiam ipsam, necessitatibus nisi, earum commodi iure, 
+                            voluptatibus ut dignissimos reprehenderit autem eos magni perferendis quo maxime 
+                            aspernatur dolores? Totam, consequatur?
+                        </p>
+                    </li>
+                </ul>
+
+                <div class="lessons__img">
+                    <div class="lessons__img-child"></div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="price">
         <div class="wrap">
-            
+            <h3 class="price__title up hover-left">
+                <span class="big">Форма</span>
+                <span class="small">заявки:</span>
+            </h3>
+
+            <div class="price-box df">
+                <form action="POST" class="form">
+                    <p class="form__line">
+                        <input type="text" id="name" name="name" placeholder="Ваше ФИО">
+                    </p>
+
+                    <p class="form__line">
+                        <input type="tel" id="phone" name="phone" placeholder="Ваш телефон">
+                    </p>
+
+                    <p class="form__btn">
+                        <input type="submit" value="записаться на бесплатное занятие" class="link">
+                    </p>
+                </form>    
+
+                <div class="price-block">
+                    <div class="price__text">
+                        Уроки проходят в моей студии (улица Максима Горькова 165), длительность урока-60 минут.
+                        Действует система абонементов:
+                    </div>
+
+                    <ul class="info dg">
+                        <li class="info__item">
+                            <div class="info__img">
+                                <div class="info__img-child"></div>
+                            </div>
+
+                            <div class="info__lessons">
+                                Пробное занятие
+                            </div>
+    
+                            <div class="info__price">
+                                Бесплатно
+                            </div>
+                        </li>
+                        
+                        <li class="info__item">
+                            <div class="info__img">
+                                <div class="info__img-child"></div>
+                            </div>
+
+                            <div class="info__lessons">
+                                Количество занятий: <span>4</span>
+                            </div>
+    
+                            <div class="info__price">
+                                Цена: 3990₽
+                            </div>
+                        </li>
+
+                        <li class="info__item">
+                            <div class="info__img">
+                                <div class="info__img-child"></div>
+                            </div>
+
+                            <div class="info__lessons">
+                                Количество занятий: <span>8</span>
+                            </div>
+    
+                            <div class="info__price">
+                                Цена: 6990₽
+                            </div>
+                        </li>
+
+                        <li class="info__item">
+                            <div class="info__img">
+                                <div class="info__img-child"></div>
+                            </div>
+
+                            <div class="info__lessons">
+                                Количество занятий: <span>12</span>
+                            </div>
+    
+                            <div class="info__price">
+                                Цена: 8990₽
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
-    <sectoin class="reviews">
+    <section class="reviews">
         <div class="wrap">
-            
+            <h3 class="reviews__title up hover-right">
+                <span class="big">Отзывы</span>
+                <span class="small">наших клиентов:</span>
+            </h3>
+
+            <div class="owl-carousel owl-theme">
+                <div class="reviews__item df">
+                    <div class="reviews__img">
+                        <div class="reviews__img-child"></div>
+                    </div>
+
+                    <div class="reviews__info">
+                        <div class="reviews__name">
+                            Имя Фамилия Отчество
+                        </div>
+
+                        <p class="reviews__text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Labore architecto molestiae quaerat aut quibusdam quod, ab voluptas. 
+                            Doloribus, esse animi? Nesciunt ut voluptatibus soluta aspernatur ipsam 
+                            facere voluptate laborum culpa.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="reviews__item df">
+                    <div class="reviews__img">
+                        <div class="reviews__img-child"></div>
+                    </div>
+
+                    <div class="reviews__info">
+                        <div class="reviews__name">
+                            Имя Фамилия Отчество
+                        </div>
+
+                        <p class="reviews__text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Labore architecto molestiae quaerat aut quibusdam quod, ab voluptas. 
+                            Doloribus, esse animi? Nesciunt ut voluptatibus soluta aspernatur ipsam 
+                            facere voluptate laborum culpa.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="reviews__item df">
+                    <div class="reviews__img">
+                        <div class="reviews__img-child"></div>
+                    </div>
+
+                    <div class="reviews__info">
+                        <div class="reviews__name">
+                            Имя Фамилия Отчество
+                        </div>
+
+                        <p class="reviews__text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Labore architecto molestiae quaerat aut quibusdam quod, ab voluptas. 
+                            Doloribus, esse animi? Nesciunt ut voluptatibus soluta aspernatur ipsam 
+                            facere voluptate laborum culpa.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </sectoin>
+    </section>
 
     <footer class="footer">
         <div class="wrap">
@@ -116,6 +338,8 @@
         </div>
     </div>
 
-    <script src="js/main.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
